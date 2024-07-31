@@ -98,4 +98,4 @@ $ kubectl delete -f rolling-deployment/deployment.yaml -n quota-test
 
 ### Conclusion
 
-If a developer is using the RollingUpdate strategy it must have resources available in the ResourceQuota to fit the largest pod that's going to roll out.
+If a developer is using the RollingUpdate strategy it must have resources available in the ResourceQuota to fit the largest pod that is going to roll out.
